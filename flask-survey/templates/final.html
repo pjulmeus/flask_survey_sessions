@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %} Start Survey {% endblock %}
+{% block content %} 
+<h1>Final Survey</h1>
+<ul>
+    {% for r in resp %}
+    <li>{{r}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
